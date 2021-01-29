@@ -217,7 +217,7 @@ def instr():
         st.write("Lets assume a company sells three products and we want to maximize sales revenue. Product one sells for $2000, product two for $1000 and \
         proudct 3 sells for $5000.")
         st.write("If we define our decision variables as x1 , x2 and x3 representing the number of product 1, 2 and 3 \
-        produced respectively, then our objective function is: Maximize $$2000x_1$$ + $$1000x_2$$ + $$5000x_3$$")
+        produced respectively, then our objective function is: Maximize 2000$$x_1$$ + 1000$$x_2$$ + 5000$$x_3$$")
         st.write("")
         st.write("**Decision Variables:**")
         st.write("The decision variables can be thought of as algebraic representations of things you can control \
@@ -227,7 +227,7 @@ def instr():
         st.write("A constraint refers to a restriction on a set of decision variables that must be satisfied.\
         In the above example let's assume the company only has 100 hours of staff time available for production.\
         If product 1, 2 and 3 require 10, 5 and 13 hours of labour respectively we can reflect this using\
-        the following constraint: $$10x_1$$ + $$5x_2$$ + $$13x_3$$ $${\le}$$ 100")
+        the following constraint: 10$$x_1$$ + 5$$x_2$$ + 13$$x_3$$ $${\le}$$ 100")
         st.write("")
 
 
@@ -288,12 +288,12 @@ def instr():
         st.write("Let $$x_i$$ be the number of model i homes developed by Building Co. Where i = 1, 2, 3, 4 \
         corresponds to Coastal Cabin, Beach Bungalow, Tranquil Townhouse and Eastern Estate models respectively.")
         st.write("**Objective function:**")
-        st.write("Maximise: $$40,000x_1 + 50,000x_2 + 60,000x_3 + 80,000x_4$$")
+        st.write("Maximise: 40,000$$x_1$$ + 50,000$$x_2$$ + 60,000$$x_3$$ + 80,000$$x_4$$")
         st.write("**Constraints:**")
-        st.write("(1) $$x_i  {\geq}  10$$    $${\\forall} i ,  i = 1,...,4$$")
-        st.write("(2) $$x_1 + x_2 {\geq} 40$$")
-        st.write("(3) $$x_2 + x_3 + x_4 {\geq} 50$$")
-        st.write("(4) $$0.20x_1 + 0.27x_2 + 0.22x_3 + 0.35x_4 {\leq} 20$$")
+        st.write("(1) $$x_i$$  $${\geq}$$  10    $${\\forall} i ,  i = 1,...,4$$")
+        st.write("(2) $$x_1 + x_2 {\geq}$$ 40")
+        st.write("(3) $$x_2 + x_3 + x_4 {\geq}$$ 50")
+        st.write("(4) 0.20$$x_1$$ + 0.27$$x_2$$ + 0.22$$x_3$$ + 0.35$$x_4$$ $${\leq}$$ 20")
         st.write("Note constraints must also be added to ensure non negative and integer variables \
         this can be specified in the *user input* sidebar. ")
         st.write("**Interpretation of constraints:**")
@@ -304,7 +304,7 @@ def instr():
         Building Co. can't develop a negative number of homes or incomplete homes.")
         st.write("**Solution:**")
         st.write("Optimal value: $4,610,000")
-        st.write("$$x_1 = 29$$, $$x_2 = 11$$, $$x_3 = 35$$, $$x_4 = 10$$")
+        st.write("$$x_1$$ = 29, $$x_2$$ = 11, $$x_3$$ = 35, $$x_4$$ = 10")
         st.write("**Interpretation of Solution:**")
         st.write("Building Co. should develop 29 Coastal Cabins, 11 Beach Bungalows, 35 Tranquil Townhouses \
         and 10 Eastern Estates. This will maximize gross profit subject to the constraints at $4.61m")
