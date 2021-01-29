@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
- #You can now view your Streamlit app in your browser.
-
- #Local URL: http://localhost:8502
- # Network URL: http://172.20.10.2:8502
-
-
-
 from pulp import LpMaximize, LpProblem, LpStatus, lpSum, LpVariable, LpMinimize
 import streamlit as st
 import pandas as pd
