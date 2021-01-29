@@ -1,6 +1,6 @@
 # Optimization Solver
 
-Optimization web app deployed via streamlit
+Optimization web app deployed via streamlit.
 
 Max 10 decision variables and 12 constraints in current version.
 
