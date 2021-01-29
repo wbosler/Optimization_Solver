@@ -269,7 +269,7 @@ def instr():
     with example:
         st.write("")
         st.write("**A Simple Development Problem**")
-        st.write("Building Co. have purchased 20 acres of land in Coastal New South Wales and are trying to determine \
+        st.write("Building Co. have purchased 20 acres of land in coastal New South Wales and are trying to determine \
         which type of homes they should build to maximize gross profit. There are four types of homes they can \
         build (see below table) and Building Co. have decided at least 10 models of each should be constructed. Futhermore \
         at least 40 homes must be one story and at least 50 must have three or more bedrooms.")
