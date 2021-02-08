@@ -10,7 +10,7 @@ st.sidebar.header("Application Mode")
 app_mode = st.sidebar.selectbox("What would you like to do?",("View the instructions and overview", "Start modelling"))
 
 
-#storing variables names for optimizer as zeros or empty strings until updated
+#storing variables for optimizer as zeros or empty strings until updated
 
 x1_obj = 0
 x2_obj = 0
@@ -183,7 +183,7 @@ con12_inequality = ""
 
 var_list = ['x1','x2','x3','x4','x5','x6','x7','x8','x9','x10']
 
-#Sidebar components
+#Instruction Window
 def instr():
     st.write("")
     st.write("")
@@ -310,6 +310,7 @@ def instr():
         and 10 Eastern Estates. This will maximize gross profit subject to the constraints at $4.61m")
 
 
+#Modelling window
 def main():
     #app_mode.sidebar
     st.sidebar.header('User Input Parameters')
